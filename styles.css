@@ -1,0 +1,124 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/74/49/38/jhind.jpg?w=1200&h=-1&s=1')
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  background-image: none;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107; /* Change color on hover */
+}
+
+.hero {
+  background-image: url('hero-bg.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8f00; /* Change background color on hover */
+}
+
+.featured-dishes {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.featured-dishes h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dish-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dish {
+  margin: 0 20px;
+}
+
+.dish img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.dish h3 {
+  margin-top: 10px;
+}
+
+.dish img:hover {
+  transform: scale(1.05); /* Scale image on hover */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
